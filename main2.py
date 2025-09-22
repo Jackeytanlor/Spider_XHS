@@ -138,7 +138,7 @@ if __name__ == '__main__':
 
     # 3 搜索指定关键词的笔记
     query = "南头古镇"
-    query_num = 40
+    query_num = 60
     sort_type_choice = 0  # 0 综合排序, 1 最新, 2 最多点赞, 3 最多评论, 4 最多收藏
     note_type = 0 # 0 不限, 1 视频笔记, 2 普通笔记
     note_time = 0  # 0 不限, 1 一天内, 2 一周内天, 3 半年内
@@ -149,4 +149,4 @@ if __name__ == '__main__':
     #     "latitude": 39.9725,
     #     "longitude": 116.4207
     # }
-    data_spider.spider_some_search_note(query, query_num, cookies_str, base_path, 'all', sort_type_choice, note_type, note_time, note_range, pos_distance, geo=None)
+    data_spider.spider_some_search_note(query, query_num, cookies_str, base_path, 'excel', sort_type_choice, note_type, note_time, note_range, pos_distance, geo=None)
