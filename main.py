@@ -207,7 +207,7 @@ if __name__ == '__main__':
     # 3) 搜索关键词 → Excel（文件名默认用关键词）
     spider.spider_some_search_note_to_excel(
         query="南头古镇",
-        require_num=100,
+        require_num=10,
         cookies_str=cookies_str,
         excel_dir=excel_dir,
         excel_name="",           # 为空则使用 query 作为文件名
