@@ -195,14 +195,14 @@ if __name__ == '__main__':
     spider = Data_Spider_ExcelOnly()
 
     # 1) 固定笔记列表 → Excel
-    notes = [
-        r'https://www.xiaohongshu.com/explore/683fe17f0000000023017c6a',
-    ]
-    spider.spider_some_note_to_excel(notes, cookies_str, excel_dir, excel_name='test')
+    # notes = [
+    #     r'https://www.xiaohongshu.com/explore/683fe17f0000000023017c6a',
+    # ]
+    # spider.spider_some_note_to_excel(notes, cookies_str, excel_dir, excel_name='test')
 
     # 2) 某用户所有笔记 → Excel（自动用用户ID做文件名）
-    user_url = 'https://www.xiaohongshu.com/user/profile/64c3f392000000002b009e45'
-    spider.spider_user_all_note_to_excel(user_url, cookies_str, excel_dir)
+    # user_url = 'https://www.xiaohongshu.com/user/profile/64c3f392000000002b009e45'
+    # spider.spider_user_all_note_to_excel(user_url, cookies_str, excel_dir)
 
     # 3) 搜索关键词 → Excel（文件名默认用关键词）
     spider.spider_some_search_note_to_excel(
