@@ -137,11 +137,11 @@ if __name__ == '__main__':
     data_spider.spider_user_all_note(user_url, cookies_str, base_path, 'all')
 
     # 3 搜索指定关键词的笔记
-    query = "榴莲"
-    query_num = 10
+    query = "南头古镇"
+    query_num = 100
     sort_type_choice = 0  # 0 综合排序, 1 最新, 2 最多点赞, 3 最多评论, 4 最多收藏
     note_type = 0 # 0 不限, 1 视频笔记, 2 普通笔记
-    note_time = 0  # 0 不限, 1 一天内, 2 一周内天, 3 半年内
+    note_time = 3  # 0 不限, 1 一天内, 2 一周内天, 3 半年内
     note_range = 0  # 0 不限, 1 已看过, 2 未看过, 3 已关注
     pos_distance = 0  # 0 不限, 1 同城, 2 附近 指定这个1或2必须要指定 geo
     # geo = {
