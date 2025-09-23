@@ -138,7 +138,7 @@ if __name__ == '__main__':
 
     # 3 搜索指定关键词的笔记
     query = "南头古镇"
-    query_num = 120
+    query_num = 1080
     sort_type_choice = 0  # 0 综合排序, 1 最新, 2 最多点赞, 3 最多评论, 4 最多收藏
     note_type = 0 # 0 不限, 1 视频笔记, 2 普通笔记
     note_time = 0  # 0 不限, 1 一天内, 2 一周内天, 3 半年内
